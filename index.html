@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Remmy Bahati">
+    <meta name = "description" content = "Twitter clone with HTML and CSS.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.20.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="icon" href="https://abs.twimg.com/errors/logo46x38.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Twitter Clone</title>
+</head>
+<body>
+    <!-- Sidebar starts -->
+    <div class="sidebar">
+        
+        <i class="fab fa-twitter"></i>
+        <div class="sidebar-button">
+            <span class="material-symbols-outlined">home</span>
+                <h2>Home</h2>
+        </div>
+
+        <div class="sidebar-button">
+            <span class="material-symbols-outlined">
+                tag
+                </span>
+                <h2>Explore</h2>
+        </div>
+
+        <div class="sidebar-button">
+            <span class="material-symbols-outlined">
+                notifications
+                </span>
+                <h2>Notifications</h2>
+        </div>
+
+        <div class="sidebar-button">
+            <span class="material-symbols-outlined">
+                mail
+                </span>
+                <h2>Messages</h2>
+        </div>
+
+        <div class="sidebar-button">
+            <span class="material-symbols-outlined">
+                bookmark
+                </span>
+                <h2>Bookmarks</h2>
+        </div>
+
+        <div class="sidebar-button">
+            <span class="material-symbols-outlined">
+                verified
+                </span> 
+                <h2>Twitter Blue</h2>
+        </div>
+
+        <div class="sidebar-button">
+            <span class="material-symbols-outlined">
+                person
+                </span>
+                <h2>Profile</h2>
+        </div>
+
+        <div class="sidebar-button">
+            <span class="material-symbols-outlined">
+                more_horiz
+                </span>
+                <h2>More</h2>
+        </div>
+
+        <button class="sidebar-tweet">Tweet</button>
+
+        <div class="account-management">
+            <div class="account-profile">
+                <img src="images/profile.jpeg" alt="">
+                
+                <div class="personal-info">
+                    <h3>Remmy</h3>
+                    <p>@remy_bahati</p>
+                </div>
+            </div>
+            <div class="settings">
+                <span class="material-symbols-outlined">more_horiz</span>
+            </div>
+        </div>
+    </div>
+    <!-- Sidebar ends -->
+    
+    <!-- Feed starts -->
+    <div class="feed">
+        
+        <div class="feed-header">
+            <h2>Home</h2>
+        <div class="feed-title">
+            <h4 class="underlined-text">For you</h4>
+            <h4 class="header-follow-color">Following</h4>
+        </div>
+        </div>
+
+        <!-- Tweetbox starts -->
+        <div class="tweet-box">
+            <form action="">
+                <div class="tweet-box-input">
+                    <img src="images/profile.jpeg" alt="Profile Picture">
+                    <input type="text" placeholder="What's happening?">
+                </div>
+                <div class="tweet-media-options">
+                    <div class="media">
+                        <span class="material-symbols-outlined">imagesmode</span>
+                        <span class="material-symbols-outlined">gif_box</span>
+                        <span class="material-symbols-outlined">ballot</span>
+                        <span class="material-symbols-outlined">sentiment_satisfied</span>
+                        <span class="material-symbols-outlined">calendar_clock</span>
+                        <span class="material-symbols-outlined">location_on</span>
+                    </div>
+                    <div>
+                        <button class="tweet-box-button">Tweet</button>
+                    </div>
+                </div>
+                
+            </form>
+        </div>
+        <!-- Tweetbox end -->
+
+        <!-- Special notice -->
+        <div class="notice">
+            <div class="notice-more-icon">
+                <span class="material-symbols-outlined notice-more-icon">more_horiz</span>
+            </div>
+            <div class="notice-description">
+                <h3>Before you scroll...</h3>
+                <p>We are updating our corporate name in our <a href="" class="terms-link">Terms and Services</a> and <a href="" class="privacy-link">Privacy Policy.</a><br>Now's a great chance to review them.</p>
+            </div>
+            <button class="notice-button" title="Confirm To continue">Got it</button>
+        </div>
+        <!-- Special notice -->
+        
+        <!-- Post starts -->
+        <div class="post">
+            <div class="post-figure">
+                <img src="images/profile.jpeg" alt="">
+            </div>
+
+            <div class="post-body">
+                <div class="post-header">
+                    <div class="post-header-container">
+                        <div class="post-header-text">
+                            <h3>Remmy Bahati 
+                                <span class="post-header-icon">
+                                    <span class="material-symbols-outlined post-target">target</span>
+                                    @remy_bahati 
+                                    <span class="material-symbols-outlined">wifi_1_bar</span>4h
+                                </span>
+                            </h3>
+                        </div>
+        
+                        <div class="post-more">
+                            <span class="material-symbols-outlined">more_horiz</span>
+                        </div>
+                    </div>
+    
+                    <div class="post-header-description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Earum nostrum corrupti, dolore repellat ut natus sint, <br>maxime ratione quo quas laudantium, voluptas suscipit <br>repudiandae eligendi nesciunt autem saepe repellendus perspiciatis.</p>
+                        <ul class="post-list">
+                            <li>Like</li>
+                            <li>Repost</li>
+                            <li>Follow us</li>
+                        </ul>
+                    </div>
+                </div>
+                <img id="post" src="images/post.jpg" alt="">
+            </div>
+        </div>
+        <!-- Post ends -->
+    </div>
+    <!-- Feed ends -->
+
+    <!-- Widgets starts -->
+    <div class="widgets">
+        <div class="widgets-input">
+            <span class="material-symbols-outlined widget-search-icon">search</span>
+            <input type="text" placeholder="Search Twitter">
+        </div>
+
+        <div class="widgets-widget-container">
+            <h2>Trends for you</h2>
+
+            <div class="widget-container-elements">
+                <div class="widget-elements-left">
+                    <p>Tourism . Trending</p>
+                    <h6>#VISITRWANDA</h6>
+                    <p>1.1M Tweets</p>
+                </div>
+                <div class="widget-elements-right">
+                    <span class="material-symbols-outlined">more_horiz</span>
+                </div>
+            </div>
+
+            <div class="widget-container-elements">
+                <div class="widget-elements-left">
+                    <p>Tourism . Trending</p>
+                    <h6>#VISITRWANDA</h6>
+                    <p>1.1M Tweets</p>
+                </div>
+                <div class="widget-elements-right">
+                    <span class="material-symbols-outlined">more_horiz</span>
+                </div>
+            </div>
+
+            <div class="widget-container-elements">
+                <div class="widget-elements-left">
+                    <p>Tourism . Trending</p>
+                    <h6>#VISITRWANDA</h6>
+                    <p>1.1M Tweets</p>
+                </div>
+                <div class="widget-elements-right">
+                    <span class="material-symbols-outlined">more_horiz</span>
+                </div>
+            </div>
+
+            <div class="widget-container-elements">
+                <div class="widget-elements-left">
+                    <p>Tourism . Trending</p>
+                    <h6>#VISITRWANDA</h6>
+                    <p>1.1M Tweets</p>
+                </div>
+                <div class="widget-elements-right">
+                    <span class="material-symbols-outlined">more_horiz</span>
+                </div>
+            </div>
+
+            <div class="widget-container-elements">
+                <div class="widget-elements-left">
+                    <p>Tourism . Trending</p>
+                    <h6>#VISITRWANDA</h6>
+                    <p>1.1M Tweets</p>
+                </div>
+                <div class="widget-elements-right">
+                    <span class="material-symbols-outlined">more_horiz</span>
+                </div>
+            </div>
+
+            <div class="widget-container-elements">
+                <div class="widget-elements-left">
+                    <p>Tourism . Trending</p>
+                    <h6>#VISITRWANDA</h6>
+                    <p>1.1M Tweets</p>
+                </div>
+                <div class="widget-elements-right">
+                    <span class="material-symbols-outlined">more_horiz</span>
+                </div>
+            </div>
+
+            <div class="widget-container-elements">
+                <div class="widget-elements-left">
+                    <p>Tourism . Trending</p>
+                    <h6>#VISITRWANDA</h6>
+                    <p>1.1M Tweets</p>
+                </div>
+                <div class="widget-elements-right">
+                    <span class="material-symbols-outlined">more_horiz</span>
+                </div>
+            </div>
+
+            <div class="widget-container-elements">
+                <div class="widget-elements-left">
+                    <p>Tourism . Trending</p>
+                    <h6>#VISITRWANDA</h6>
+                    <p>1.1M Tweets</p>
+                </div>
+                <div class="widget-elements-right">
+                    <span class="material-symbols-outlined">more_horiz</span>
+                </div>
+            </div>
+
+            <div class="widget-container-elements">
+                <div class="widget-elements-left">
+                    <p>Tourism . Trending</p>
+                    <h6>#VISITRWANDA</h6>
+                    <p>1.1M Tweets</p>
+                </div>
+                <div class="widget-elements-right">
+                    <span class="material-symbols-outlined">more_horiz</span>
+                </div>
+            </div>
+
+            <div class="widget-container-elements">
+                <div class="widget-elements-left">
+                    <p>Tourism . Trending</p>
+                    <h6>#VISITRWANDA</h6>
+                    <p>1.1M Tweets</p>
+                </div>
+                <div class="widget-elements-right">
+                    <span class="material-symbols-outlined">more_horiz</span>
+                </div>
+            </div>
+
+            <div class="show-more">
+                <a class="show-more1">Show more</a>
+            </div>
+        </div>
+
+        <div class="follow-feature">
+            <h3>Who to follow</h3>
+        </div>
+    </div>
+    <!-- Widgets ends -->
+</body>
+</html>
